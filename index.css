@@ -1,0 +1,109 @@
+body{
+ margin: 0;
+ background-color: #eee;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+ display: flex;
+ background-color:#000 ;
+}
+
+header > img{
+ width: 150px;
+ display: block;
+ margin: 20px auto;
+}
+
+main{
+ display: flex;
+ justify-content: space-around;
+
+}
+
+/* #watch-img{
+ padding: 0px;
+ width: 500px;
+ height: 100%;
+ background: #eee center url("assets/blackwatch.png") no-repeat;
+ background-size: 200px;
+ 
+} */
+
+#watch{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+#text{
+ display: none;
+ position: absolute;
+ top: 370px;
+ font-size: 30px;
+ color: #eee;
+}
+
+#heart{
+ display: none;
+ position: absolute;
+ top: 290px;
+}
+
+#watch-img{
+ width: 500px; 
+}
+
+#time{
+  position: absolute;
+  font-size: 30px;
+  color: #eee;
+}
+
+
+#content{
+ width: 900px;
+}
+
+.color-btn{
+ padding: 20px 30px;
+ margin: 5px;
+ border: none;
+ border-radius: 15%;
+ cursor: pointer;
+}
+#black{
+ background-color: #23211f;
+}
+
+#red {
+ background-color: #ca3d22;
+}
+
+#purple {
+ background-color: #565681;
+}
+
+#brown{
+ background-color: #8a5362;
+}
+
+
+.feature-btn{
+ background-color: #BEBEBE;
+ border: none;
+ border-radius: 5px;
+ padding: 8px 16px;
+ margin: 0px 20px 30px 0px;
+ cursor: pointer;
+}
+
+#Buy-btn{
+ background-color: #ff8000;
+ border: none;
+ border-radius: 5px;
+ padding: 15px 30px;
+ font-weight: 900;
+ cursor: pointer;
+}
